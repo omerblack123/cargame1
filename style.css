@@ -29,7 +29,7 @@ margin: 40px;
     ;
     position: fixed;
     top:50px;
-    right: 36vw;
+    right: 41.5vw;
 }
 .carleft{ 
        width: 100px; ;
@@ -38,7 +38,7 @@ margin: 40px;
     ;
     position: fixed;
     top:50px;
-    right: 55vw;}
+    right: 54vw;}
 .carcenter{
     width: 100px; ;
     height:150px ;
@@ -46,7 +46,7 @@ margin: 40px;
     ;
     position: fixed;
     top:50px;
-    right:46.3vw;
+    right:47.7vw;
 }
 
 .arrow1{
@@ -57,7 +57,7 @@ height: 60px;
 position: fixed;
 top: 90vh;
 
-left:57vw ;
+left:54vw ;
 }
 .arrow2{
 
@@ -66,6 +66,93 @@ height: 60px;
     background-color: red;
     position: fixed;
     top: 90vh;
-    right:57vw ;
+    right:54vw ;
+}
+.enemycar{  
+      right: 41.5vw;
+      width: 100px; ;
+      height:150px ;
+      z-index: 100000000s
+      ;
+      top: 70vh;
+      position: fixed;
 }
 
+.start{
+    width: 150px; ;
+    height:100px ;
+    color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+@media only screen and (max-width: 1550px)
+
+{
+    .carright{
+       
+        right: 38vw;
+    }
+ .carcenter{
+     left:46.5vw
+ }
+ .carleft{
+     left: 38vw;
+ }
+}
+@media only screen and (max-width: 1250px)
+
+{
+    .carright{
+       
+        right: 34vw;
+    }
+    .carcenter{
+        left:46.5vw
+    }  
+    .carleft{
+        left: 38vw;
+    } 
+}
+@media only screen and (max-width: 850px)
+
+{
+    .carright{
+       
+        right: 29vw;
+    }
+    .carcenter{
+        left:46.5vw
+    }
+    .carleft{
+        left: 38vw;
+    }
+}
+@media only screen and (max-width: 690px)
+
+{
+    .carright{
+       
+        right: 24vw;
+    }
+    .carcenter{
+        left:46.5vw
+    }
+    .carleft{
+        left: 38vw;
+    }
+}
+@media only screen and (max-width: 560px)
+
+{
+    .carright{
+       
+        right: 19vw;
+    }
+    .carcenter{
+        left:46.5vw
+    }
+    .carleft{
+        left: 38vw;
+    } 
+    
+}

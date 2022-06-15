@@ -22,5 +22,33 @@ function r(){
         document.getElementById("car").classList.remove("carcenter")
     }
 {}
+
     }
-    
+  window.addEventListener("keydown",(event) => {
+      console.log(event.key)
+
+      
+      if (event.key === "d"){
+          r()
+      }
+      if (event.key === "a"){
+          l()
+      }
+  })  
+
+  
+
+
+var x = Math.floor(Math.random() * 5)
+console.log(x) 
+carNames = ['carblack',"carred","carpink","carwhite","carblue"]
+chosenCar = carNames[x]
+document.getElementById("enemycar").innerHTML=`
+<img id="enemycar" class="enemycar" src="./imges/${chosenCar}.png" alt="">
+
+`
+
+
+
+
+
